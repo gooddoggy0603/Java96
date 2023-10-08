@@ -1,0 +1,18 @@
+public class ts2 {
+
+    public static void main(String[] args) {
+        int[][] ints = { {20, 34, 2}, {9, 12, 18}, {3, 4, 5} };
+
+        int x = ints[0][0];
+
+        for (int[] row : ints) {
+            for (int elem : row) {
+                if (elem < x) {
+                    x = elem;
+                }
+            }
+        }
+
+        System.out.println(x);
+    }
+}

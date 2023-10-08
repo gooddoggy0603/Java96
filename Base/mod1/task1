@@ -1,4 +1,4 @@
-public class dz1 {
+public class ts1 {
 
     public static void main(String[] args) {
         int x = 0;
